@@ -26,11 +26,13 @@
 
 ---
 
-## 🧠 Sobre o Projeto
 
-O projeto **BK-DEP – Otimização de Conversão em Campanha Bancária** analisa os resultados de campanhas de **depósito a prazo** conduzidas por um banco fictício, com o objetivo de **maximizar o Retorno sobre o Investimento (ROI)** e **reduzir o Custo por Aquisição (CPA)**.
+## 💡 Sobre o Projeto
 
-O estudo combina **análise exploratória (EDA)** e **modelagem preditiva** para identificar os perfis de clientes mais propensos à conversão e construir estratégias de alocação de recursos *data-driven*.
+**BK-DEP – Otimização de Conversão em Campanha Bancária** analisa **38 mil contatos reais** de campanhas de **depósito a prazo** realizadas por um banco português entre 2008 e 2013 ([fonte oficial](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset)).
+
+O projeto aplica **análise exploratória de dados (EDA)** e **modelagem preditiva supervisionada** para **identificar perfis de clientes com maior propensão à conversão**, **otimizar o ROI** e **reduzir o CPA**, apoiando decisões de marketing orientadas por dados.
+
 
 ---
 
@@ -48,8 +50,8 @@ O estudo combina **análise exploratória (EDA)** e **modelagem preditiva** para
 ---
 
 ## 🏗️ Arquitetura do Projeto
+
 BKDEP/
-│
 ├── data/
 │ ├── raw/ # Dados originais (ex: bank_marketing.csv)
 │ ├── processed/ # Dados tratados e limpos (dados_banco_clean.csv, ROI)
@@ -71,7 +73,6 @@ BKDEP/
 ├── requirements.txt # Dependências Python
 └── .gitignore # Arquivos ignorados pelo Git
 
----
 
 ## 🧮 Fontes e Bases de Dados
 
@@ -186,6 +187,7 @@ git clone git@github.com:btaguiar/BK_DEP_Otimiza-o_de_Convers-o.git
 cd BK_DEP_Otimiza-o_de_Convers-o
 pip install -r requirements.txt
 jupyter notebook notebooks/01_diagnostico_inicial.ipynb
+
 
 
 
