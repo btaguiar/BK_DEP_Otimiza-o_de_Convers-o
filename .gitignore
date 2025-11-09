@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Data
+data/raw/
+data/processed/
+data/outputs/
+*.csv
+*.xlsx
+*.xls
+*.zip
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# System
+.DS_Store
+Thumbs.db
