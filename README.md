@@ -115,14 +115,21 @@ BK-DEP/
 
 ### Principais visuais:
 
-| # | Gráfico | Arquivo |
-|---|---------|---------|
-| 1 | Scatter ROI x CPA | `scatter_roi_cpa.png` |
-| 2 | Boxplot ROI por Profissão | `boxplot_roi_profissao.png` |
-| 3 | Top 10 Segmentos de Maior ROI | `top10_segmentos_roi.png` |
-| 4 | Heatmap de correlação | `heatmap_correlacao.png` |
-| 5 | Distribuição geral de ROI e CPA | `distribuicao_geral_roi_cpa.png` |
-| 6 | Painel de insights | `insights_resumo.png` |
+#### 1. Scatter ROI x CPA
+![Scatter ROI vs CPA](assets/etapa02_exploratoria/scatter_roi_cpa.png)
+
+#### 2. Boxplot ROI por Profissão
+![Boxplot ROI](assets/etapa02_exploratoria/boxplot_roi_profissao.png)
+
+#### 3. Top 10 Segmentos de Maior ROI
+![Top 10 ROI](assets/etapa02_exploratoria/top10_segmentos_roi.png)
+
+#### 4. Heatmap de Correlação
+![Heatmap](assets/etapa02_exploratoria/heatmap_correlacao.png)
+
+#### 5. Distribuição Geral — ROI e CPA
+![Distribuição](assets/etapa02_exploratoria/distribuicao_geral_roi_cpa.png)
+
 
 ---
 
@@ -143,9 +150,15 @@ BK-DEP/
 O **recall alto (80%)** significa que o modelo recupera a maioria dos clientes que realmente convertem — ideal para campanhas onde perder um cliente conversor é muito caro.
 
 #### Assets gerados (`etapa03_modelagem`):
-- `curva_roc_logreg.png`
-- `matriz_confusao_logreg.png`
-- `importancia_features_logreg.png`
+
+![Curva ROC](assets/etapa03_modelagem/curva_roc_logreg.png)
+*Curva ROC - AUC: 0.906*
+
+![Matriz de Confusão](assets/etapa03_modelagem/matriz_confusao_logreg.png)
+*Matriz de Confusão - Regressão Logística*
+
+![Importância das Features](assets/etapa03_modelagem/importancia_features_logreg.png)
+*Importância das Variáveis*
 
 ---
 
@@ -167,8 +180,14 @@ A clusterização foi executada usando **ROI, CPA, Receita_Total e Custo_Total**
 | 2 | 1.881 | 70.13 | 13.270 | 🔻 **Não rentável**, consome orçamento |
 
 ### Visualizações
-- **Scatterplot:** `scatter_roi_cpa_clusters.png`
-- **Elbow Method:** `elbow_method.png`
+
+#### Elbow Method
+![Elbow Method](assets/etapa03_modelagem/elbow_method.png)
+*Determinação do número ótimo de clusters (k=3)*
+
+#### Scatterplot ROI vs CPA por Cluster
+![Clusters](assets/etapa03_modelagem/scatter_roi_cpa_clusters.png)
+*Segmentação de clientes por rentabilidade*
 
 ### Conclusão
 - **Cluster 1** → Foco principal de investimento
@@ -231,7 +250,6 @@ Execute na ordem: `01_` → `02_` → `03_` → `04_`
 
 - 🔗 **GitHub:** [github.com/btaguiar](https://github.com/btaguiar)
 - 🔗 **LinkedIn:** [linkedin.com/in/bruno-aguiar-marketing-analytics](https://www.linkedin.com/in/bruno-aguiar-marketing-analytics/)
-
 
 ---
 
