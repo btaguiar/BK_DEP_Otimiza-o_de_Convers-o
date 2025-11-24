@@ -74,20 +74,21 @@ BK-DEP/
 
 ---
 
-## Visualizações Principais
+## Assets da Análise Exploratória
 
-Todos os gráficos estão na pasta [`assets/etapa02_exploratoria/`](assets/etapa02_exploratoria/)
+Pasta completa → [`assets/etapa02_exploratoria/`](assets/etapa02_exploratoria/)
 
-| # | Descrição                              | Arquivo                              |
-|---|----------------------------------------|--------------------------------------|
-| 1 | Scatterplot ROI × CPA (interativo)     | `scatter_roi_cpa.html`               |
-| 2 | Boxplot ROI por Profissão              | `boxplot_roi_profissao.png`          |
-| 3 | Top 10 Segmentos com Maior ROI         | `top10_segmentos_roi.png`            |
-| 4 | Heatmap de Correlações                 | `heatmap_correlacao.png`             |
-| 5 | Distribuição Geral ROI/CPA             | `distribuicao_geral_roi_cpa.png`     |
-| 6 | Resumo Visual de Insights              | `insights_resumo.png`                |
+| # | Descrição                                   | Visualização                                                                                   |
+|---|---------------------------------------------|------------------------------------------------------------------------------------------------|
+| 1 | Scatterplot — ROI vs CPA (interativo)       | ![Scatter ROI vs CPA](assets/etapa02_exploratoria/scatter_roi_cpa.png)                         |
+| 2 | Boxplot — ROI por Profissão                 | ![Boxplot ROI por Profissão](assets/etapa02_exploratoria/boxplot_roi_profissao.png)            |
+| 3 | Top 10 Segmentos com Maior ROI              | ![Top 10 ROI](assets/etapa02_exploratoria/top10_segmentos_roi.png)                             |
+| 4 | Heatmap — Correlação Entre Variáveis        | ![Heatmap](assets/etapa02_exploratoria/heatmap_correlacao.png)                                 |
+| 5 | Distribuição Geral — ROI e CPA              | ![Distribuição ROI/CPA](assets/etapa02_exploratoria/distribuicao_geral_roi_cpa.png)            |
+| 6 | Resumo Visual de Insights                   | ![Resumo Insights](assets/etapa02_exploratoria/insights_resumo.png)                            |
 
-<img src="assets/etapa02_exploratoria/scatter_roi_cpa.png" width="700" alt="Scatter ROI vs CPA"/>
+### Scatterplot ROI vs CPA (zoom recomendado)
+![Scatter ROI vs CPA — detalhe](assets/etapa02_exploratoria/scatter_roi_cpa.png)
 
 ---
 
@@ -107,3 +108,4 @@ Bruno Aguiar
 Marketing Analytics & Data Intelligence
 LinkedIn •
 GitHub •
+
